@@ -5,7 +5,7 @@ const productos = {
         {
             nombre: "Cerveza Cristal Botella",
             descripcion: "Cerveza cubana refrescante en botella",
-            precio: "$420",
+            precio: "$320",
             imagen: "Resources/Cerveza Cristal de Botella.jpg",
             categoria: "cerveza",
             destacado: true
@@ -18,10 +18,17 @@ const productos = {
             categoria: "cerveza"
         },
         {
-            nombre: "Cerveza Cristal Extra",
+            nombre: "Cerveza Cristal Extra Lata",
             descripcion: "Cerveza cubana premium",
             precio: "$300",
             imagen: "Resources/CristalExtra.jpeg",
+            categoria: "cerveza"
+        },
+         {
+            nombre: "Cerveza Cristal Extra Botella",
+            descripcion: "Cerveza cubana premium",
+            precio: "$300",
+            imagen: "Resources/CristalExtraBotella.webp",
             categoria: "cerveza"
         },
         {
@@ -36,6 +43,13 @@ const productos = {
             descripcion: "Cerveza cubana de alta graduación",
             precio: "$300",
             imagen: "Resources/BucaneroMax.jpeg",
+            categoria: "cerveza"
+        },
+       {
+            nombre: "Cerveza Bucanero Botella",
+            descripcion: "Cerveza cubana de alta graduación",
+            precio: "$300",
+            imagen: "Resources/BucaneroBotella.webp",
             categoria: "cerveza"
         },
        
@@ -103,14 +117,6 @@ const productos = {
             destacado: true
         },
 
-        // BEBIDAS MEZCLADAS
-        //{
-        //nombre: "Planchao Cubay",
-        //descripcion: "Bebida cubana tradicional",
-        //precio: "$300",
-        //imagen: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop",
-        //categoria: "mezclado"
-        //},
         {
             nombre: "Planchao SilverDry",
             descripcion: "Bebida cubana refrescante",
@@ -145,7 +151,7 @@ const productos = {
             nombre: "Refresco Mate",
             descripcion: "Bebida de mate refrescante",
             precio: "$250",
-            imagen: "Resources/RefrescoMate.webp",
+            imagen: "Resources/MateLata.webp",
             categoria: "refresco"
         },
         {
@@ -248,8 +254,8 @@ const productos = {
         },
         {
             nombre: "Croquetas",
-            descripcion: "Croquetas con un sabor especial",
-            precio: "$500",
+            descripcion: "Croquetas importadas con un sabor especial (8 unidades)",
+            precio: "$700",
             imagen:"Resources/croquetas.webp"
         }
     ]
