@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DITU- Experiencia Gastronómica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header con imagen de portada mejorada -->
+    <header class="hero-header">
+        <div class="header-overlay">
+            <div class="logo-container">
+                <img src="Resources/Portada.png" alt="DITU" class="logo">
+            </div>
+            <div class="hero-text">
+                <h1 class="restaurant-name">DITU</h1>
+                <p class="tagline">Sabor Auténtico • Experiencia Única</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Información del restaurante -->
+    <section class="restaurant-info">
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h3>Ubicación</h3>
+                    <p>Artemisa, Güira de Melena<br>Esquina 82 y 75</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h3>Horario</h3>
+                    <p>Martes - Domingo<br>11:00 AM - 10:00 PM</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="info-content">
+                    <h3>Especialidad</h3>
+                    <p>Brochetas & Pan con Lechón<br>Bebidas Refrescantes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navegación entre secciones -->
+    <nav class="menu-nav">
+        <div class="nav-container">
+            <button class="nav-btn active" data-section="bebidas">
+                <i class="fas fa-glass-cheers"></i>
+                <span>Bebidas</span>
+            </button>
+            <button class="nav-btn" data-section="picaderas">
+                <i class="fas fa-utensils"></i>
+                <span>Picaderas</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <!-- Sección Bebidas -->
+        <section id="bebidas" class="menu-section active">
+            <div class="section-header">
+                <h2>Nuestras Bebidas</h2>
+                <p>Selección refrescante para acompañar tu comida</p>
+            </div>
+            <div class="products-grid" id="bebidas-grid">
+                <!-- Los productos se cargan dinámicamente -->
+            </div>
+        </section>
+
+        <!-- Sección Picaderas -->
+        <section id="picaderas" class="menu-section">
+            <div class="section-header">
+                <h2>Nuestras Picaderas</h2>
+                <p>Deliciosos aperitivos para compartir</p>
+            </div>
+            <div class="products-grid" id="picaderas-grid">
+                <!-- Los productos se cargan dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>DITU</h3>
+                <p>Tu lugar favorito para disfrutar</p>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 DITU. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
