@@ -5,7 +5,7 @@ const productos = {
         {
             nombre: "Cerveza Cristal Botella",
             descripcion: "Cerveza cubana refrescante en botella",
-            precio: "$320",
+            precio: "$350",
             imagen: "Resources/Cerveza Cristal de Botella.jpg",
             categoria: "cerveza",
             destacado: true
@@ -27,14 +27,14 @@ const productos = {
          {
             nombre: "Cerveza Cristal Extra Botella",
             descripcion: "Cerveza cubana premium",
-            precio: "$300",
+            precio: "$340",
             imagen: "Resources/CristalExtraBotella.webp",
             categoria: "cerveza"
         },
         {
             nombre: "Cerveza Muralla",
             descripcion: "Cerveza artesanal cubana",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Cerveza La Muralla.jpeg",
             categoria: "cerveza"
         },
@@ -48,7 +48,7 @@ const productos = {
        {
             nombre: "Cerveza Bucanero Botella",
             descripcion: "Cerveza cubana de alta graduación",
-            precio: "$300",
+            precio: "$340",
             imagen: "Resources/BucaneroBotella.webp",
             categoria: "cerveza"
         },
@@ -56,7 +56,7 @@ const productos = {
         {
             nombre: "Cerveza Parranda",
             descripcion: "Cerveza cubana con espíritu festivo",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Parranda.jpeg",
             categoria: "cerveza"
         },
@@ -73,28 +73,28 @@ const productos = {
         {
             nombre: "Cerveza Hollandia",
             descripcion: "Cerveza holandesa tradicional",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Hollandia.jpeg",
             categoria: "cerveza"
         },
         {
             nombre: "Cerveza Breda",
             descripcion: "Cerveza importada refrescante",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Breda.webp",
             categoria: "cerveza"
         },
         {
             nombre: "Cerveza Beck's",
             descripcion: "Cerveza alemana de calidad",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Cerveza Becks.jpeg",
             categoria: "cerveza"
         },
         {
             nombre: "Cerveza Unlager",
             descripcion: "Cerveza importada especial",
-            precio: "$230",
+            precio: "$250",
             imagen: "Resources/Unlager.jpeg",
             categoria: "cerveza"
         },
@@ -103,7 +103,7 @@ const productos = {
         {
             nombre: "Ron Chanceler",
             descripcion: "Ron cubano de alta calidad",
-            precio: "$1300",
+            precio: "$1500",
             imagen: "Resources/Chanceler.webp",
             categoria: "licor",
             destacado: true
@@ -111,7 +111,7 @@ const productos = {
         {
             nombre: "Ron Fire One",
             descripcion: "Ron premium importado",
-            precio: "$1400",
+            precio: "$1500",
             imagen: "Resources/Fire One.jpeg",
             categoria: "licor",
             destacado: true
@@ -129,21 +129,21 @@ const productos = {
         {
             nombre: "Refresco",
             descripcion: "Variedad de refrescos",
-            precio: "$220",
+            precio: "$250",
             imagen:"Resources/refrescos.webp",
             categoria: "refresco"
         },
         {
             nombre: "Refresco Pepsi",
             descripcion: "Refresco de cola",
-            precio: "$280",
+            precio: "$300",
             imagen: "Resources/Pepsi.webp",
             categoria: "refresco"
         },
         {
             nombre: "Refresco de Pomo",
             descripcion: "Refresco en presentación pomo",
-            precio: "$650",
+            precio: "$600",
             imagen: "Resources/RefrescosPomo.webp",
             categoria: "refresco"
         },
@@ -157,7 +157,7 @@ const productos = {
         {
             nombre: "Jugo de Lata",
             descripcion: "Jugos naturales en lata",
-            precio: "$300",
+            precio: "$350",
             imagen: "Resources/JugosLata.webp",
             categoria: "jugo"
         },
@@ -190,21 +190,21 @@ const productos = {
         {
             nombre: "Malta Bucanero",
             descripcion: "Malta con sabor intenso",
-            precio: "$300",
+            precio: "$350",
             imagen: "Resources/Malta Bucanero.jpeg",
             categoria: "malta"
         },
         {
             nombre: "Malta Belga",
             descripcion: "Malta de estilo belga",
-            precio: "$250",
+            precio: "$300",
             imagen: "Resources/MaltaBelga.webp",
             categoria: "malta"
         },
         {
             nombre: "Malta Perla Negra",
             descripcion: "Malta premium especial",
-            precio: "$280",
+            precio: "$3000",
             imagen: "Resources/Malta Perla Negra.jpeg",
             categoria: "malta"
         },
@@ -257,7 +257,42 @@ const productos = {
             descripcion: "Croquetas importadas con un sabor especial (8 unidades)",
             precio: "$700",
             imagen:"Resources/croquetas.webp"
-        }
+        },
+        {
+            nombre: "Picadera(Jamón + Queso + Galletas",
+            descripcion: "Deliciosa picadera para disfrutar de lo salado",
+            precio: "$1300",
+            imagen: "Resources/JamonQueso.png",
+            destacado: true
+        },
+        {
+            nombre: "Picadera(Extra Jamón + Galleta)",
+            descripcion: "Delicioso en entrante para abrir el apetito",
+            precio: "$1200",
+            imagen: "Resources/Jamon.png",
+            destacado: true
+        },
+        {
+            nombre: "Picadera(Galleta + Atún)",
+            descripcion: "Deliciosa combinación para los que disfrutan el sabor del mar",
+            precio: "$1000",
+            imagen: "Resources/Atun.png",
+            destacado: true
+        },
+         {
+            nombre: "Picadera(Galleta + Jamón Serrano)",
+            descripcion: "Bomba de Sabores para tu paladar",
+            precio: "$1500",
+            imagen: "Resources/Serrano.png",
+            destacado: true
+        },
+        {
+            nombre: "Minutas Empanizadas",
+            descripcion: "Para los que disfrutan el sabor del mar",
+            precio: "$1000",
+            imagen: "Resources/Minuta.jpg",
+            destacado: true
+        },
     ]
 };
 
